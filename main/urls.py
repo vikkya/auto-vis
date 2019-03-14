@@ -6,6 +6,6 @@ app_name = 'main'
 
 urlpatterns = [
     path('', views.homepage, name='homepage'),
-    url(r'^data/$', views.viewCSV)
+    url(r'^data$', views.viewCSV)
 
 ]
